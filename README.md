@@ -16,7 +16,7 @@ Amazon Product Analysis is an interactive web application designed to help users
 ## Technologies
 - **Python** — Data processing and analysis
 - **Pandas** — Data manipulation
-- **Seaborn** — Statistical data visualization
+- **Numpy, Scipy, Seaborn** — Statistical data visualization
 - **Matplotlib** — Chart rendering
 - **Web Framework:** To be determined
 
