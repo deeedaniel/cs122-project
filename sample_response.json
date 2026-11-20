@@ -1,0 +1,1229 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 1,
+    "credits_remaining": 99,
+    "credits_used_this_request": 1
+  },
+  "request_parameters": {
+    "type": "bestsellers",
+    "url": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics"
+  },
+  "request_metadata": {
+    "created_at": "2026-11-20T00:12:58.824Z",
+    "processed_at": "2026-11-20T00:13:02.757Z",
+    "total_time_taken": 3.93,
+    "amazon_url": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics"
+  },
+  "bestsellers": [
+    {
+      "position": 1,
+      "rank": 1,
+      "title": "blink plus plan with monthly auto-renewal",
+      "asin": "B08JHCVHTY",
+      "link": "https://www.amazon.com/Blink-Plus-Plan-monthly-auto-renewal/dp/B08JHCVHTY/ref=zg_bs_g_electronics_d_sccl_1/134-3446416-8507505?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/31YHGbJsldL._AC_UL300_SR300,200_.png",
+      "rating": 4.4,
+      "ratings_total": 282147,
+      "price": {
+        "symbol": "$",
+        "value": 11.99,
+        "currency": "USD",
+        "raw": "$11.99"
+      },
+      "current_category": {
+        "name": "Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics",
+        "id": "electronics"
+      },
+      "parent_category": {
+        "name": "Any Department",
+        "link": "https://www.amazon.com/Best-Sellers/zgbs/ref=zg_bs_unv_electronics_0_1",
+        "id": "zgbs"
+      }
+    },
+    {
+      "position": 2,
+      "rank": 2,
+      "title": "Apple EarPods Headphones with USB-C Plug, Wired Ear Buds with Built-in Remote to Control Music, Phone Calls, and Volume",
+      "asin": "B0DCH8VDXF",
+      "link": "https://www.amazon.com/Apple-EarPods-Headphones-Built-Control/dp/B0DCH8VDXF/ref=zg_bs_g_electronics_d_sccl_2/134-3446416-8507505?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/513OSdW4elL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.5,
+      "ratings_total": 20422,
+      "price": {
+        "symbol": "$",
+        "value": 14.99,
+        "currency": "USD",
+        "raw": "$14.99"
+      },
+      "current_category": {
+        "name": "Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics",
+        "id": "electronics"
+      },
+      "parent_category": {
+        "name": "Any Department",
+        "link": "https://www.amazon.com/Best-Sellers/zgbs/ref=zg_bs_unv_electronics_0_1",
+        "id": "zgbs"
+      }
+    },
+    {
+      "position": 3,
+      "rank": 3,
+      "title": "Apple AirPods Pro 3 Wireless Earbuds with Active Noise Cancellation | Live Translation, Heart Rate Sensing, Hearing Aid Featu",
+      "asin": "B0FQFB8FMG",
+      "link": "https://www.amazon.com/Apple-Cancellation-Translation-Headphones-High-Fidelity/dp/B0FQFB8FMG/ref=zg_bs_g_electronics_d_sccl_3/134-3446416-8507505?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61solmQSSlL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.4,
+      "ratings_total": 18139,
+      "price": {
+        "symbol": "$",
+        "value": 179,
+        "currency": "USD",
+        "raw": "$179.00"
+      },
+      "current_category": {
+        "name": "Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics",
+        "id": "electronics"
+      },
+      "parent_category": {
+        "name": "Any Department",
+        "link": "https://www.amazon.com/Best-Sellers/zgbs/ref=zg_bs_unv_electronics_0_1",
+        "id": "zgbs"
+      }
+    },
+    {
+      "position": 4,
+      "rank": 4,
+      "title": "Apple AirTag (2nd Generation): Tracker for Keychain, Wallet, and More; Locator with Sound; Simple One-Tap Setup with iPhone o",
+      "asin": "B0GJTFXNRX",
+      "link": "https://www.amazon.com/Apple-AirTag-2nd-Generation-Precision/dp/B0GJTFXNRX/ref=zg_bs_g_electronics_d_sccl_4/134-3446416-8507505?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61Qd9Z9caRL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.6,
+      "ratings_total": 13334,
+      "price": {
+        "symbol": "$",
+        "value": 23,
+        "currency": "USD",
+        "raw": "$23.00"
+      },
+      "current_category": {
+        "name": "Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics",
+        "id": "electronics"
+      },
+      "parent_category": {
+        "name": "Any Department",
+        "link": "https://www.amazon.com/Best-Sellers/zgbs/ref=zg_bs_unv_electronics_0_1",
+        "id": "zgbs"
+      }
+    },
+    {
+      "position": 5,
+      "rank": 5,
+      "title": "Roku Streaming Stick HD with Voice Remote | Compact HD Streaming Device for TV with Roku Voice Remote & Long-Range Wi-Fi - Fr",
+      "asin": "B0DXXYS4BJ",
+      "link": "https://www.amazon.com/Roku-Streaming-Stick-HD-2025/dp/B0DXXYS4BJ/ref=zg_bs_g_electronics_d_sccl_5/134-3446416-8507505?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71CBWyQfKhL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.6,
+      "ratings_total": 26659,
+      "price": {
+        "symbol": "$",
+        "value": 19,
+        "currency": "USD",
+        "raw": "$19.00"
+      },
+      "current_category": {
+        "name": "Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics",
+        "id": "electronics"
+      },
+      "parent_category": {
+        "name": "Any Department",
+        "link": "https://www.amazon.com/Best-Sellers/zgbs/ref=zg_bs_unv_electronics_0_1",
+        "id": "zgbs"
+      }
+    },
+    {
+      "position": 6,
+      "rank": 6,
+      "title": "Amazon Fire TV Stick 4K Plus with AI-powered Fire TV Search, Wi-Fi 6, stream hundreds of thousands of movies and shows, free ",
+      "asin": "B0F7Z4QZTT",
+      "link": "https://www.amazon.com/Amazon-newest-AI-powered-Search-million/dp/B0F7Z4QZTT/ref=zg_bs_g_electronics_d_sccl_6/134-3446416-8507505?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51WtNy0OxLL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.6,
+      "ratings_total": 116680,
+      "price": {
+        "symbol": "$",
+        "value": 29.99,
+        "currency": "USD",
+        "raw": "$29.99"
+      },
+      "current_category": {
+        "name": "Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics",
+        "id": "electronics"
+      },
+      "parent_category": {
+        "name": "Any Department",
+        "link": "https://www.amazon.com/Best-Sellers/zgbs/ref=zg_bs_unv_electronics_0_1",
+        "id": "zgbs"
+      }
+    },
+    {
+      "position": 7,
+      "rank": 7,
+      "title": "Apple Watch Series 12 GPS 42mm Smartwatch | Light Gold Aluminum Case, Sand Sport Band - S/M. Health + Fitness + Sleep Trackin",
+      "asin": "B0HJ9ZXCSD",
+      "link": "https://www.amazon.com/Apple-Watch-Smartwatch-Light-Aluminum/dp/B0HJ9ZXCSD/ref=zg_bs_g_electronics_d_sccl_7/134-3446416-8507505?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61YX4bH7zaL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.8,
+      "ratings_total": 521,
+      "price": {
+        "symbol": "$",
+        "value": 329,
+        "currency": "USD",
+        "raw": "$329.00"
+      },
+      "current_category": {
+        "name": "Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics",
+        "id": "electronics"
+      },
+      "parent_category": {
+        "name": "Any Department",
+        "link": "https://www.amazon.com/Best-Sellers/zgbs/ref=zg_bs_unv_electronics_0_1",
+        "id": "zgbs"
+      }
+    },
+    {
+      "position": 8,
+      "rank": 8,
+      "title": "Amazon Fire TV Stick HD (newest model), free & live TV, Alexa Voice Remote, powered by the TV, effortless setup, find shows f",
+      "asin": "B0DJGDC3BD",
+      "link": "https://www.amazon.com/Amazon-Fire-TV-Stick-HD-Thin-and-Portable/dp/B0DJGDC3BD/ref=zg_bs_g_electronics_d_sccl_8/134-3446416-8507505?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/610j-wmxRcL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.2,
+      "ratings_total": 8254,
+      "price": {
+        "symbol": "$",
+        "value": 15.99,
+        "currency": "USD",
+        "raw": "$15.99"
+      },
+      "current_category": {
+        "name": "Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics",
+        "id": "electronics"
+      },
+      "parent_category": {
+        "name": "Any Department",
+        "link": "https://www.amazon.com/Best-Sellers/zgbs/ref=zg_bs_unv_electronics_0_1",
+        "id": "zgbs"
+      }
+    },
+    {
+      "position": 9,
+      "rank": 9,
+      "title": "Apple AirPods 5 Wireless Earbuds with Active Noise Cancellation | Bluetooth Headphones, Personalized Spatial Audio, Live Tran",
+      "asin": "B0HJB69GJL",
+      "link": "https://www.amazon.com/Apple-Cancellation-Headphones-Personalized-Translation/dp/B0HJB69GJL/ref=zg_bs_g_electronics_d_sccl_9/134-3446416-8507505?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/618C8GA55KL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.4,
+      "ratings_total": 699,
+      "price": {
+        "symbol": "$",
+        "value": 129,
+        "currency": "USD",
+        "raw": "$129.00"
+      },
+      "current_category": {
+        "name": "Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics",
+        "id": "electronics"
+      },
+      "parent_category": {
+        "name": "Any Department",
+        "link": "https://www.amazon.com/Best-Sellers/zgbs/ref=zg_bs_unv_electronics_0_1",
+        "id": "zgbs"
+      }
+    },
+    {
+      "position": 10,
+      "rank": 10,
+      "title": "Apple iPad 11-inch: A16 chip, 11-inch Model, Liquid Retina Display, 128GB, Wi-Fi 6, 12MP Front/12MP Back Camera, Touch ID, Al",
+      "asin": "B0DZ75TN5F",
+      "link": "https://www.amazon.com/Apple-iPad-11-inch-Display-All-Day/dp/B0DZ75TN5F/ref=zg_bs_g_electronics_d_sccl_10/134-3446416-8507505?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61aPY8odPSL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.7,
+      "ratings_total": 30529,
+      "price": {
+        "symbol": "$",
+        "value": 399,
+        "currency": "USD",
+        "raw": "$399.00"
+      },
+      "current_category": {
+        "name": "Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics",
+        "id": "electronics"
+      },
+      "parent_category": {
+        "name": "Any Department",
+        "link": "https://www.amazon.com/Best-Sellers/zgbs/ref=zg_bs_unv_electronics_0_1",
+        "id": "zgbs"
+      }
+    },
+    {
+      "position": 11,
+      "rank": 11,
+      "title": "Beats Solo 4 On-Ear Headphones, 50 Hours Battery Life - Matte Black | Rich, Bass-Forward Sound Quality, Spatial Audio, USB-C ",
+      "asin": "B0CZPLV566",
+      "link": "https://www.amazon.com/Beats-Solo-Wireless-Headphones-Matte/dp/B0CZPLV566/ref=zg_bs_g_electronics_d_sccl_11/134-3446416-8507505?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/515FE+S4yLL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.6,
+      "ratings_total": 30524,
+      "price": {
+        "symbol": "$",
+        "value": 99,
+        "currency": "USD",
+        "raw": "$99.00"
+      },
+      "current_category": {
+        "name": "Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics",
+        "id": "electronics"
+      },
+      "parent_category": {
+        "name": "Any Department",
+        "link": "https://www.amazon.com/Best-Sellers/zgbs/ref=zg_bs_unv_electronics_0_1",
+        "id": "zgbs"
+      }
+    },
+    {
+      "position": 12,
+      "rank": 12,
+      "title": "Amazon Fire TV Stick 4K Select, start streaming in 4K, AI-powered search, and free & live TV, find shows faster with Alexa+",
+      "asin": "B0C6W3D4RM",
+      "link": "https://www.amazon.com/amazon-fire-tv-stick-4K-select/dp/B0C6W3D4RM/ref=zg_bs_g_electronics_d_sccl_12/134-3446416-8507505?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61r3G3vAhBL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.2,
+      "ratings_total": 19865,
+      "price": {
+        "symbol": "$",
+        "value": 17.99,
+        "currency": "USD",
+        "raw": "$17.99"
+      },
+      "current_category": {
+        "name": "Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics",
+        "id": "electronics"
+      },
+      "parent_category": {
+        "name": "Any Department",
+        "link": "https://www.amazon.com/Best-Sellers/zgbs/ref=zg_bs_unv_electronics_0_1",
+        "id": "zgbs"
+      }
+    },
+    {
+      "position": 13,
+      "rank": 13,
+      "title": "JBL Go 4 - Ultra-Portable, Waterproof and Dustproof Bluetooth Speaker, Big JBL Pro Sound with Punchy bass, 7-Hour Built-in Ba",
+      "asin": "B0CTNWBT1Z",
+      "link": "https://www.amazon.com/JBL-Ultra-Portable-Waterproof-Dustproof-Built/dp/B0CTNWBT1Z/ref=zg_bs_g_electronics_d_sccl_13/134-3446416-8507505?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71kzInVwzgL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.7,
+      "ratings_total": 20454,
+      "price": {
+        "symbol": "$",
+        "value": 31.95,
+        "currency": "USD",
+        "raw": "$31.95"
+      },
+      "current_category": {
+        "name": "Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics",
+        "id": "electronics"
+      },
+      "parent_category": {
+        "name": "Any Department",
+        "link": "https://www.amazon.com/Best-Sellers/zgbs/ref=zg_bs_unv_electronics_0_1",
+        "id": "zgbs"
+      }
+    },
+    {
+      "position": 14,
+      "rank": 14,
+      "title": "JBL Vibe Beam - True Wireless Earbuds - Black | Wireless Bluetooth earbuds with JBL Deep Bass Sound, up to 32h, Smart Ambient",
+      "asin": "B0BQPNMXQV",
+      "link": "https://www.amazon.com/JBL-Vibe-Beam-Wireless-Headphones/dp/B0BQPNMXQV/ref=zg_bs_g_electronics_d_sccl_14/134-3446416-8507505?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41+1Csr1pSL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.2,
+      "ratings_total": 41741,
+      "price": {
+        "symbol": "$",
+        "value": 29.95,
+        "currency": "USD",
+        "raw": "$29.95"
+      },
+      "current_category": {
+        "name": "Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics",
+        "id": "electronics"
+      },
+      "parent_category": {
+        "name": "Any Department",
+        "link": "https://www.amazon.com/Best-Sellers/zgbs/ref=zg_bs_unv_electronics_0_1",
+        "id": "zgbs"
+      }
+    },
+    {
+      "position": 15,
+      "rank": 15,
+      "title": "SUPERDANNY Extension Cord,Flat Plug Surge Protector Power Strip,10Ft | 8 AC & 4 USB Ports (2 USB C),Surge Protector with 1050",
+      "asin": "B0DZ254SSR",
+      "link": "https://www.amazon.com/Extension-Multiple-Protector-Charging-Essentials/dp/B0DZ254SSR/ref=zg_bs_g_electronics_d_sccl_15/134-3446416-8507505?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/612NrGLfOqL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.7,
+      "ratings_total": 9188,
+      "price": {
+        "symbol": "$",
+        "value": 11.39,
+        "currency": "USD",
+        "raw": "$11.39"
+      },
+      "current_category": {
+        "name": "Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics",
+        "id": "electronics"
+      },
+      "parent_category": {
+        "name": "Any Department",
+        "link": "https://www.amazon.com/Best-Sellers/zgbs/ref=zg_bs_unv_electronics_0_1",
+        "id": "zgbs"
+      }
+    },
+    {
+      "position": 16,
+      "rank": 16,
+      "title": "(2 Pack) Replacement Remote Control for Roku TV, for TCL Roku/Onn Roku TVs | for Hisense Roku/Sharp Roku/Element Roku/Westing",
+      "asin": "B09Z6Q2MLC",
+      "link": "https://www.amazon.com/Replaced-Control-Compatible-Westinghouse-Insignia/dp/B09Z6Q2MLC/ref=zg_bs_g_electronics_d_sccl_16/134-3446416-8507505?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71Z6Vs6+hDL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.5,
+      "ratings_total": 75803,
+      "price": {
+        "symbol": "$",
+        "value": 8.98,
+        "currency": "USD",
+        "raw": "$8.98"
+      },
+      "current_category": {
+        "name": "Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics",
+        "id": "electronics"
+      },
+      "parent_category": {
+        "name": "Any Department",
+        "link": "https://www.amazon.com/Best-Sellers/zgbs/ref=zg_bs_unv_electronics_0_1",
+        "id": "zgbs"
+      }
+    },
+    {
+      "position": 17,
+      "rank": 17,
+      "title": "Bose QuietComfort Headphones - Wireless Bluetooth Headphones, Active Over Ear Noise Cancelling and Mic, USB-C Charging, Deep ",
+      "asin": "B0DZHR44J9",
+      "link": "https://www.amazon.com/Bose-QuietComfort-Bluetooth-Headphones-Cancelling/dp/B0DZHR44J9/ref=zg_bs_g_electronics_d_sccl_17/134-3446416-8507505?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51tItfLj8xL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.5,
+      "ratings_total": 22934,
+      "price": {
+        "symbol": "$",
+        "value": 169,
+        "currency": "USD",
+        "raw": "$169.00"
+      },
+      "current_category": {
+        "name": "Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics",
+        "id": "electronics"
+      },
+      "parent_category": {
+        "name": "Any Department",
+        "link": "https://www.amazon.com/Best-Sellers/zgbs/ref=zg_bs_unv_electronics_0_1",
+        "id": "zgbs"
+      }
+    },
+    {
+      "position": 18,
+      "rank": 18,
+      "title": "Amazon Fire TV Stick 4K (newest model), simple 4K streaming, new Fire TV Remote, all your apps in one place, free & live TV, ",
+      "asin": "B0G4XRP464",
+      "link": "https://www.amazon.com/All-New-Fire-TV-Stick-4K/dp/B0G4XRP464/ref=zg_bs_g_electronics_d_sccl_18/134-3446416-8507505?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61blUHa9vvL._AC_UL300_SR300,200_.jpg",
+      "rating": 3.5,
+      "ratings_total": 1005,
+      "price": {
+        "symbol": "$",
+        "value": 19.99,
+        "currency": "USD",
+        "raw": "$19.99"
+      },
+      "current_category": {
+        "name": "Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics",
+        "id": "electronics"
+      },
+      "parent_category": {
+        "name": "Any Department",
+        "link": "https://www.amazon.com/Best-Sellers/zgbs/ref=zg_bs_unv_electronics_0_1",
+        "id": "zgbs"
+      }
+    },
+    {
+      "position": 19,
+      "rank": 19,
+      "title": "Apple Watch SE 3 GPS 40mm Smartwatch | Starlight Aluminum Case, Sand Sport Band - S/M. Fitness + Sleep + Cycle Tracking, Hear",
+      "asin": "B0HJ9ZNRKT",
+      "link": "https://www.amazon.com/Apple-Watch-Smartwatch-Starlight-Aluminum/dp/B0HJ9ZNRKT/ref=zg_bs_g_electronics_d_sccl_19/134-3446416-8507505?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61hDZx1bOoL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.7,
+      "ratings_total": 5095,
+      "price": {
+        "symbol": "$",
+        "value": 199,
+        "currency": "USD",
+        "raw": "$199.00"
+      },
+      "current_category": {
+        "name": "Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics",
+        "id": "electronics"
+      },
+      "parent_category": {
+        "name": "Any Department",
+        "link": "https://www.amazon.com/Best-Sellers/zgbs/ref=zg_bs_unv_electronics_0_1",
+        "id": "zgbs"
+      }
+    },
+    {
+      "position": 20,
+      "rank": 20,
+      "title": "JBL Tune 530BT (2026) \u2013 Wireless On-Ear Bluetooth Headphones (Black) | JBL Pure Bass Sound, Up to 76H Battery Life (19H More ",
+      "asin": "B0GHY4PR3N",
+      "link": "https://www.amazon.com/JBL-Tune-530BT-Ear-Headphones/dp/B0GHY4PR3N/ref=zg_bs_g_electronics_d_sccl_20/134-3446416-8507505?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71bxgOa0vCL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.4,
+      "ratings_total": 287,
+      "price": {
+        "symbol": "$",
+        "value": 29.95,
+        "currency": "USD",
+        "raw": "$29.95"
+      },
+      "current_category": {
+        "name": "Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics",
+        "id": "electronics"
+      },
+      "parent_category": {
+        "name": "Any Department",
+        "link": "https://www.amazon.com/Best-Sellers/zgbs/ref=zg_bs_unv_electronics_0_1",
+        "id": "zgbs"
+      }
+    },
+    {
+      "position": 21,
+      "rank": 21,
+      "title": "Ring Battery Doorbell (newest model), Speckled Gray with Chime (newest model), White",
+      "asin": "B0GGFG69YQ",
+      "link": "https://www.amazon.com/Ring-Battery-Doorbell-newest-Speckled/dp/B0GGFG69YQ/ref=zg_bs_g_electronics_d_sccl_21/134-3446416-8507505?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/5183my21gkL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.7,
+      "ratings_total": 246,
+      "price": {
+        "symbol": "$",
+        "value": 49.99,
+        "currency": "USD",
+        "raw": "$49.99"
+      },
+      "current_category": {
+        "name": "Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics",
+        "id": "electronics"
+      },
+      "parent_category": {
+        "name": "Any Department",
+        "link": "https://www.amazon.com/Best-Sellers/zgbs/ref=zg_bs_unv_electronics_0_1",
+        "id": "zgbs"
+      }
+    },
+    {
+      "position": 22,
+      "rank": 22,
+      "title": "Miracase Magnetic for iPhone 18 Pro Max Case 6.9\", Glacier Blue | Translucent Matte, Compatible with MagSafe, N56 Stronger Ma",
+      "asin": "B0HCVX8XHV",
+      "link": "https://www.amazon.com/Miracase-iPhone-Pro-Max-Translucent/dp/B0HCVX8XHV/ref=zg_bs_g_electronics_d_sccl_22/134-3446416-8507505?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61QBBf1CHiL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.5,
+      "ratings_total": 40726,
+      "price": {
+        "symbol": "$",
+        "value": 18.69,
+        "currency": "USD",
+        "raw": "$18.69"
+      },
+      "current_category": {
+        "name": "Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics",
+        "id": "electronics"
+      },
+      "parent_category": {
+        "name": "Any Department",
+        "link": "https://www.amazon.com/Best-Sellers/zgbs/ref=zg_bs_unv_electronics_0_1",
+        "id": "zgbs"
+      }
+    },
+    {
+      "position": 23,
+      "rank": 23,
+      "title": "OURA Ring 5 Sizing Kit - Size Before You Buy | Unique Sizing, Not Standard Ring Sizing - Receive Amazon Credit for Oura Ring ",
+      "asin": "B0GRKC9NJP",
+      "link": "https://www.amazon.com/OURA-Sizing-Smart-Accessory-Compatible/dp/B0GRKC9NJP/ref=zg_bs_g_electronics_d_sccl_23/134-3446416-8507505?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61HAkWN1-LL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.6,
+      "ratings_total": 1213,
+      "price": {
+        "symbol": "$",
+        "value": 10,
+        "currency": "USD",
+        "raw": "$10.00"
+      },
+      "current_category": {
+        "name": "Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics",
+        "id": "electronics"
+      },
+      "parent_category": {
+        "name": "Any Department",
+        "link": "https://www.amazon.com/Best-Sellers/zgbs/ref=zg_bs_unv_electronics_0_1",
+        "id": "zgbs"
+      }
+    },
+    {
+      "position": 24,
+      "rank": 24,
+      "title": "soundcore by Anker Q20i Hybrid Active Noise Cancelling Headphones, Black | Over-Ear, Bluetooth, 40H ANC Playtime, Hi-Res Audi",
+      "asin": "B0C3HCD34R",
+      "link": "https://www.amazon.com/soundcore-Cancelling-Headphones-Bluetooth-Transparency/dp/B0C3HCD34R/ref=zg_bs_g_electronics_d_sccl_24/134-3446416-8507505?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71XBzSvq-NL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.5,
+      "ratings_total": 80298,
+      "price": {
+        "symbol": "$",
+        "value": 37.97,
+        "currency": "USD",
+        "raw": "$37.97"
+      },
+      "current_category": {
+        "name": "Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics",
+        "id": "electronics"
+      },
+      "parent_category": {
+        "name": "Any Department",
+        "link": "https://www.amazon.com/Best-Sellers/zgbs/ref=zg_bs_unv_electronics_0_1",
+        "id": "zgbs"
+      }
+    },
+    {
+      "position": 25,
+      "rank": 25,
+      "title": "JBL Go 5 - Ultra-portable IP68 waterproof & drop-proof speaker (Black) | JBL legendary sound & ambient edge lighting, Up to 1",
+      "asin": "B0GHYJ7BS9",
+      "link": "https://www.amazon.com/JBL-Ultra-portable-waterproof-drop-proof-legendary/dp/B0GHYJ7BS9/ref=zg_bs_g_electronics_d_sccl_25/134-3446416-8507505?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/716d1HFuLLL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.7,
+      "ratings_total": 1588,
+      "price": {
+        "symbol": "$",
+        "value": 39.95,
+        "currency": "USD",
+        "raw": "$39.95"
+      },
+      "current_category": {
+        "name": "Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics",
+        "id": "electronics"
+      },
+      "parent_category": {
+        "name": "Any Department",
+        "link": "https://www.amazon.com/Best-Sellers/zgbs/ref=zg_bs_unv_electronics_0_1",
+        "id": "zgbs"
+      }
+    },
+    {
+      "position": 26,
+      "rank": 26,
+      "title": "YISHU 6Ft Surge Protector Power Strip with 8 Widely Outlets & 4 USB Ports | 3 Side Outlet Extender with 6 Feet Extension Cord",
+      "asin": "B09PDLBFKY",
+      "link": "https://www.amazon.com/Surge-Protector-Power-Strip-Extension/dp/B09PDLBFKY/ref=zg_bs_g_electronics_d_sccl_26/134-3446416-8507505?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51OrfSnTVwL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.6,
+      "ratings_total": 55313,
+      "price": {
+        "symbol": "$",
+        "value": 9.48,
+        "currency": "USD",
+        "raw": "$9.48"
+      },
+      "current_category": {
+        "name": "Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics",
+        "id": "electronics"
+      },
+      "parent_category": {
+        "name": "Any Department",
+        "link": "https://www.amazon.com/Best-Sellers/zgbs/ref=zg_bs_unv_electronics_0_1",
+        "id": "zgbs"
+      }
+    },
+    {
+      "position": 27,
+      "rank": 27,
+      "title": "FUJIFILM Instax Mini Instant Film Twin Pack (White), 20 Photos | The instax film ensures sharp",
+      "asin": "B00EB4ADQW",
+      "link": "https://www.amazon.com/Fujifilm-INSTAX-Instant-Twin-Pack/dp/B00EB4ADQW/ref=zg_bs_g_electronics_d_sccl_27/134-3446416-8507505?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71owTZWK7eL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.8,
+      "ratings_total": 113542,
+      "price": {
+        "symbol": "$",
+        "value": 14.99,
+        "currency": "USD",
+        "raw": "$14.99"
+      },
+      "current_category": {
+        "name": "Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics",
+        "id": "electronics"
+      },
+      "parent_category": {
+        "name": "Any Department",
+        "link": "https://www.amazon.com/Best-Sellers/zgbs/ref=zg_bs_unv_electronics_0_1",
+        "id": "zgbs"
+      }
+    },
+    {
+      "position": 28,
+      "rank": 28,
+      "title": "Wall Charger, Surge Protector, QINLIANF 5 Outlet Extender with 4 USB Ports | 1680 Joules, 3-Sided Power Strip, Multi Plug Wal",
+      "asin": "B08R6S1M1K",
+      "link": "https://www.amazon.com/Charger-Protector-QINLIANF-Extender-Charging/dp/B08R6S1M1K/ref=zg_bs_g_electronics_d_sccl_28/134-3446416-8507505?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51lGPGOkjUL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.7,
+      "ratings_total": 120198,
+      "price": {
+        "symbol": "$",
+        "value": 9.48,
+        "currency": "USD",
+        "raw": "$9.48"
+      },
+      "current_category": {
+        "name": "Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics",
+        "id": "electronics"
+      },
+      "parent_category": {
+        "name": "Any Department",
+        "link": "https://www.amazon.com/Best-Sellers/zgbs/ref=zg_bs_unv_electronics_0_1",
+        "id": "zgbs"
+      }
+    },
+    {
+      "position": 29,
+      "rank": 29,
+      "title": "soundcore P31i by Anker Translation Earbuds with Real-Time Adaptive ANC | Real-Time Adaptive Noise Cancelling, Hi-Res Sound, ",
+      "asin": "B0FNWCYLZN",
+      "link": "https://www.amazon.com/Soundcore-Real-Time-Cancelling-Translation-Bluetooth/dp/B0FNWCYLZN/ref=zg_bs_g_electronics_d_sccl_29/134-3446416-8507505?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71fEWG6n4aL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.4,
+      "ratings_total": 11934,
+      "price": {
+        "symbol": "$",
+        "value": 29.99,
+        "currency": "USD",
+        "raw": "$29.99"
+      },
+      "current_category": {
+        "name": "Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics",
+        "id": "electronics"
+      },
+      "parent_category": {
+        "name": "Any Department",
+        "link": "https://www.amazon.com/Best-Sellers/zgbs/ref=zg_bs_unv_electronics_0_1",
+        "id": "zgbs"
+      }
+    },
+    {
+      "position": 30,
+      "rank": 30,
+      "title": "Replacement for Samsung TV Remote, for All 2019-2026 Samsung Remote Control for Smart TV with Voice Control. 2-Year Full Warr",
+      "asin": "B0DDZN76T9",
+      "link": "https://www.amazon.com/Samsung-Replacement-2019-2024-Solarcell-Warranty/dp/B0DDZN76T9/ref=zg_bs_g_electronics_d_sccl_30/134-3446416-8507505?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51BpdDH3e2L._AC_UL300_SR300,200_.jpg",
+      "rating": 4.3,
+      "ratings_total": 10930,
+      "price": {
+        "symbol": "$",
+        "value": 16.99,
+        "currency": "USD",
+        "raw": "$16.99"
+      },
+      "current_category": {
+        "name": "Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics",
+        "id": "electronics"
+      },
+      "parent_category": {
+        "name": "Any Department",
+        "link": "https://www.amazon.com/Best-Sellers/zgbs/ref=zg_bs_unv_electronics_0_1",
+        "id": "zgbs"
+      }
+    },
+    {
+      "rank": 31,
+      "title": "Life360 Tile - Bluetooth Tracker, Keys Finder and Item Locator for Keys, Bags and More. Phone Finder. Both iOS and Android Co",
+      "asin": "B0D63657GY",
+      "link": "https://www.amazon.com/Tile-Life360-Bluetooth-Tracker-Compatible/dp/B0D63657GY/ref=_d_sccl_31/130-4927620-4011544?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81SYpSm0gNL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.2,
+      "ratings_total": 17072,
+      "price": {
+        "symbol": "$",
+        "value": 1499,
+        "currency": "USD",
+        "raw": "$1499"
+      },
+      "position": 31
+    },
+    {
+      "rank": 32,
+      "title": "HANYCONY Surge Protector Power Strip, 1080J, 5 Ft Braided Extension Cord | 8 Outlets 4 USB Ports(2 USB C), Outlet Extender, F",
+      "asin": "B092J8LPWR",
+      "link": "https://www.amazon.com/Surge-Protector-Power-Strip-Extension/dp/B092J8LPWR/ref=_d_sccl_32/130-4927620-4011544?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61q9hmplGFL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.8,
+      "ratings_total": 69686,
+      "price": {
+        "symbol": "$",
+        "value": 9.99,
+        "currency": "USD",
+        "raw": "$9.99"
+      },
+      "position": 32
+    },
+    {
+      "rank": 33,
+      "title": "Anker soundcore 2 Portable Bluetooth Speaker, 24-Hour Playtime, IPX7 | 12W Stereo Sound, Wireless Stereo Pairing, Bluetooth 6",
+      "asin": "B01MTB55WH",
+      "link": "https://www.amazon.com/soundcore-Portable-Bluetooth-Speaker-Playtime/dp/B01MTB55WH/ref=_d_sccl_33/130-4927620-4011544?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61ad7wmJ5lL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.5,
+      "ratings_total": 159215,
+      "price": {
+        "symbol": "$",
+        "value": 2848,
+        "currency": "USD",
+        "raw": "$2848"
+      },
+      "position": 33
+    },
+    {
+      "rank": 34,
+      "title": "FosPower NOAA Emergency Weather Radio A1 7400mWh Solar Hand Crank (Orange) | AM/FM/WB power bank 4 power options SOS alarm LE",
+      "asin": "B07FKYHTWP",
+      "link": "https://www.amazon.com/FosPower-Emergency-Portable-Household-Flashlight/dp/B07FKYHTWP/ref=_d_sccl_34/130-4927620-4011544?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71B9hiytZnL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.6,
+      "ratings_total": 38074,
+      "price": {
+        "symbol": "$",
+        "value": 69.99,
+        "currency": "USD",
+        "raw": "$69.99"
+      },
+      "position": 34
+    },
+    {
+      "rank": 35,
+      "title": "Cable Zip Ties,400 Pack Black Assorted Sizes 12+8+6+4 Inch,Multi-Purpose Self-Locking Nylon Cable Cord Management,Plastic Wir",
+      "asin": "B08TVLYB3Q",
+      "link": "https://www.amazon.com/HAVE-ME-TD-Cable-Ties/dp/B08TVLYB3Q/ref=_d_sccl_35/130-4927620-4011544?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71FzZl2T6KL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.6,
+      "ratings_total": 24285,
+      "price": {
+        "symbol": "$",
+        "value": 6.99,
+        "currency": "USD",
+        "raw": "$6.99"
+      },
+      "position": 35
+    },
+    {
+      "rank": 36,
+      "title": "Samsung Galaxy Tab A11+ 6GB RAM, 128GB Storage, Expandable Storage, Gray | Optimized Performance, Long Lasting Battery, Large",
+      "asin": "B0FVXMHHRP",
+      "link": "https://www.amazon.com/Samsung-Optimized-Performance-Expandable-Speakers/dp/B0FVXMHHRP/ref=_d_sccl_36/130-4927620-4011544?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61NlIpbonCL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.5,
+      "ratings_total": 3044,
+      "price": {
+        "symbol": "$",
+        "value": 18399,
+        "currency": "USD",
+        "raw": "$18399"
+      },
+      "position": 36
+    },
+    {
+      "rank": 37,
+      "title": "Yintar 6Ft Surge Protector Power Strip with 6 Outlets & 3 USB Ports, Black | 6 Feet Flat Plug Extension Cord with Multiple Ou",
+      "asin": "B08MTBCXWX",
+      "link": "https://www.amazon.com/Yintar-Protector-Outlets-Extension-Essentials/dp/B08MTBCXWX/ref=_d_sccl_37/130-4927620-4011544?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61WFHGJ33qL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.7,
+      "ratings_total": 31308,
+      "price": {
+        "symbol": "$",
+        "value": 9.99,
+        "currency": "USD",
+        "raw": "$9.99"
+      },
+      "position": 37
+    },
+    {
+      "rank": 38,
+      "title": "Inesore 4 Pairs Replacement Ear Tips for AirPods Pro 2nd/1st (White) | (2019/2022/2023) with Noise Reduction Hole & Built-in ",
+      "asin": "B0DFWRY3KQ",
+      "link": "https://www.amazon.com/Replacement-Generation-Portable-Reduction-Holewith/dp/B0DFWRY3KQ/ref=_d_sccl_38/130-4927620-4011544?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61WHByJ5EAL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.5,
+      "ratings_total": 7625,
+      "price": {
+        "symbol": "$",
+        "value": 6.98,
+        "currency": "USD",
+        "raw": "$6.98"
+      },
+      "position": 38
+    },
+    {
+      "rank": 39,
+      "title": "Roku TV Replacement Remote Control (Official Manufacturer Product) | Simple Setup & Pre-Set App Shortcuts - Compatible with R",
+      "asin": "B0CQF6T2K1",
+      "link": "https://www.amazon.com/Roku-Official-Manufacturer-Controls-Shortcuts/dp/B0CQF6T2K1/ref=_d_sccl_39/130-4927620-4011544?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/719qgkwowiL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.6,
+      "ratings_total": 12921,
+      "price": {
+        "symbol": "$",
+        "value": 998,
+        "currency": "USD",
+        "raw": "$998"
+      },
+      "position": 39
+    },
+    {
+      "rank": 40,
+      "title": "Command Cord Bundlers, Gray, 6 bundlers, 12 strips | Command Hooks For Garland, Holiday Decor, Damage Free Hanging, Good For ",
+      "asin": "B0797LMJF5",
+      "link": "https://www.amazon.com/Command-Bundlers-Hanging-Organizer-Electrical/dp/B0797LMJF5/ref=_d_sccl_40/130-4927620-4011544?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71hK1eh3mgL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.6,
+      "ratings_total": 10454,
+      "price": {
+        "symbol": "$",
+        "value": 1065,
+        "currency": "USD",
+        "raw": "$1065"
+      },
+      "position": 40
+    },
+    {
+      "rank": 41,
+      "title": "TESSAN Surge Protector Power Strip with 900J Surge Protection, 5 Ft, Grey | 8 AC with 3 USB Ports (1 USB C), Flat Plug Extens",
+      "asin": "B0BLTYNJCK",
+      "link": "https://www.amazon.com/Surge-Protector-Power-Strip-Essentials/dp/B0BLTYNJCK/ref=_d_sccl_41/130-4927620-4011544?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61Pg83pxUML._AC_UL300_SR300,200_.jpg",
+      "rating": 4.8,
+      "ratings_total": 14593,
+      "price": {
+        "symbol": "$",
+        "value": 24.99,
+        "currency": "USD",
+        "raw": "$24.99"
+      },
+      "position": 41
+    },
+    {
+      "rank": 42,
+      "title": "Alex Tech 10ft - 1/2 inch Cord Protector Wire Loom Tubing Cable Sleeve Split Sleeving For USB Cable Power Cord Audio Video Ca",
+      "asin": "B07FW3GTXB",
+      "link": "https://www.amazon.com/Alex-Tech-10ft-Protector-Sleeving/dp/B07FW3GTXB/ref=_d_sccl_42/130-4927620-4011544?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71t6eXtVD6L._AC_UL300_SR300,200_.jpg",
+      "rating": 4.7,
+      "ratings_total": 85818,
+      "price": {
+        "symbol": "$",
+        "value": 7.64,
+        "currency": "USD",
+        "raw": "$7.64"
+      },
+      "position": 42
+    },
+    {
+      "rank": 43,
+      "title": "Ljusmicker for AirPods Pro 3 Case 2025 with Cleaner Kit,Black | Soft Silicone Protective Cover for Apple AirPod Pro 3rd Gener",
+      "asin": "B0FPCJF1H2",
+      "link": "https://www.amazon.com/Ljusmicker-Protective-Generation-Accessories-Keychain-Black/dp/B0FPCJF1H2/ref=_d_sccl_43/130-4927620-4011544?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61QgaLoWrhL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.5,
+      "ratings_total": 19826,
+      "price": {
+        "symbol": "$",
+        "value": 5.59,
+        "currency": "USD",
+        "raw": "$5.59"
+      },
+      "position": 43
+    },
+    {
+      "rank": 44,
+      "title": "Skullcandy Crusher Evo Wireless Multi-Sensory Bass Headphones - True Black | Bluetooth, Noise Isolating Over-Ear Fit, 40 Hour",
+      "asin": "B08FCGH2RL",
+      "link": "https://www.amazon.com/Skullcandy-Bluetooth-Headphones-Multi-Sensory-Microphone/dp/B08FCGH2RL/ref=_d_sccl_44/130-4927620-4011544?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61TuQdBSgsL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.7,
+      "ratings_total": 19952,
+      "price": {
+        "symbol": "$",
+        "value": 89.99,
+        "currency": "USD",
+        "raw": "$89.99"
+      },
+      "position": 44
+    },
+    {
+      "rank": 45,
+      "title": "Amazon Echo Dot - Vibrant sounding speaker, Designed for Alexa+, Great for bedrooms, dining rooms and offices, Charcoal",
+      "asin": "B09B8V1LZ3",
+      "link": "https://www.amazon.com/Amazon-vibrant-helpful-routines-Charcoal/dp/B09B8V1LZ3/ref=_d_sccl_45/130-4927620-4011544?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71hNp8d9WvL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.7,
+      "ratings_total": 202491,
+      "price": {
+        "symbol": "$",
+        "value": 4499,
+        "currency": "USD",
+        "raw": "$4499"
+      },
+      "position": 45
+    },
+    {
+      "rank": 46,
+      "title": "TAGRY Bluetooth Headphones True Wireless Earbuds 60H Playback LED Power Display Earphones with Wireless Charging Case IPX5 Wa",
+      "asin": "B09DT48V16",
+      "link": "https://www.amazon.com/TAGRY-Bluetooth-Headphones-Earphones-Waterproof/dp/B09DT48V16/ref=_d_sccl_46/130-4927620-4011544?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61uEvVoizoL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.4,
+      "ratings_total": 90095,
+      "price": {
+        "symbol": "$",
+        "value": 24.68,
+        "currency": "USD",
+        "raw": "$24.68"
+      },
+      "position": 46
+    },
+    {
+      "rank": 47,
+      "title": "Replacement Remote for Insignia Toshiba Amazon Fire Smart TV | Voice Control, Simple Setup, 1-Year Warranty",
+      "asin": "B0CLLTPW3H",
+      "link": "https://www.amazon.com/IDGPUW-Replacement-Insignia-Requires-Compatible/dp/B0CLLTPW3H/ref=_d_sccl_47/130-4927620-4011544?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51ZVa+UaQ2L._AC_UL300_SR300,200_.jpg",
+      "rating": 4.4,
+      "ratings_total": 12204,
+      "price": {
+        "symbol": "$",
+        "value": 999,
+        "currency": "USD",
+        "raw": "$999"
+      },
+      "position": 47
+    },
+    {
+      "rank": 48,
+      "title": "Apple 2026 MacBook Neo 13-inch Laptop with A18 Pro chip: Built for AI and Apple Intelligence, Liquid Retina Display, 8GB Unif",
+      "asin": "B0GR6FHGXX",
+      "link": "https://www.amazon.com/Apple-2026-MacBook-13-inch-Laptop/dp/B0GR6FHGXX/ref=_d_sccl_48/130-4927620-4011544?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/619PNoEsnSL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.6,
+      "ratings_total": 1664,
+      "price": {
+        "symbol": "$",
+        "value": 61655,
+        "currency": "USD",
+        "raw": "$61655"
+      },
+      "position": 48
+    },
+    {
+      "rank": 49,
+      "title": "Zip Ties Assorted Sizes(4\u201d+6\u201d+8\u201d+12\u201d), 400 Pack, Black Cable Ties, UV Resistant Wire Ties by ANOSON",
+      "asin": "B0C2Z4L3S6",
+      "link": "https://www.amazon.com/Assorted-Sizes-12-Resistant-ANOSON/dp/B0C2Z4L3S6/ref=_d_sccl_49/130-4927620-4011544?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81QjAjamInL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.6,
+      "ratings_total": 19710,
+      "price": {
+        "symbol": "$",
+        "value": 699,
+        "currency": "USD",
+        "raw": "$699"
+      },
+      "position": 49
+    },
+    {
+      "rank": 50,
+      "title": "soundcore P30i by Anker Noise Cancelling Earbuds, Hands-Free Viewing | Strong and Smart Noise Cancelling, Powerful Bass, 45H ",
+      "asin": "B0CRTYZG5C",
+      "link": "https://www.amazon.com/Soundcore-Cancelling-Powerful-Playtime-Bluetooth/dp/B0CRTYZG5C/ref=_d_sccl_50/130-4927620-4011544?psc=1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51HbL1WS+KL._AC_UL300_SR300,200_.jpg",
+      "rating": 4.3,
+      "ratings_total": 47497,
+      "price": {
+        "symbol": "$",
+        "value": 23.74,
+        "currency": "USD",
+        "raw": "$23.74"
+      },
+      "position": 50
+    }
+  ],
+  "pagination": {
+    "current_page": 1,
+    "total_pages": 2
+  },
+  "bestsellers_info": {
+    "title": "Electronics",
+    "current_category": {
+      "name": "Electronics",
+      "link": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics",
+      "id": "electronics"
+    },
+    "parent_category": {
+      "name": "Any Department",
+      "link": "https://www.amazon.com/Best-Sellers/zgbs/ref=zg_bs_unv_electronics_0_1",
+      "id": "zgbs"
+    },
+    "child_categories": [
+      {
+        "name": "Accessories & Supplies",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics-Electronics-Accessories-Supplies/zgbs/electronics/281407/ref=zg_bs_nav_electronics_1",
+        "id": "281407"
+      },
+      {
+        "name": "Camera & Photo",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics-Camera-Photo-Products/zgbs/electronics/502394/ref=zg_bs_nav_electronics_1",
+        "id": "502394"
+      },
+      {
+        "name": "Car Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics-Car-Electronics/zgbs/electronics/1077068/ref=zg_bs_nav_electronics_1",
+        "id": "1077068"
+      },
+      {
+        "name": "Cell Phones & Accessories",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics-Cell-Phones-Accessories/zgbs/electronics/2811119011/ref=zg_bs_nav_electronics_1",
+        "id": "2811119011"
+      },
+      {
+        "name": "Computers & Accessories",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics-Computers-Accessories/zgbs/electronics/541966/ref=zg_bs_nav_electronics_1",
+        "id": "541966"
+      },
+      {
+        "name": "GPS & Navigation",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics-GPS-Finders-Accessories/zgbs/electronics/172526/ref=zg_bs_nav_electronics_1",
+        "id": "172526"
+      },
+      {
+        "name": "Headphones",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics-Headphones-Earbuds/zgbs/electronics/172541/ref=zg_bs_nav_electronics_1",
+        "id": "172541"
+      },
+      {
+        "name": "Home Audio & Theater",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics-Home-Audio-Theater-Products/zgbs/electronics/667846011/ref=zg_bs_nav_electronics_1",
+        "id": "667846011"
+      },
+      {
+        "name": "Marine Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics-Marine-Electronics/zgbs/electronics/319574011/ref=zg_bs_nav_electronics_1",
+        "id": "319574011"
+      },
+      {
+        "name": "Office Electronics",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics-Office-Electronics-Products/zgbs/electronics/172574/ref=zg_bs_nav_electronics_1",
+        "id": "172574"
+      },
+      {
+        "name": "Portable Audio & Video",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics-Portable-Audio-Video/zgbs/electronics/172623/ref=zg_bs_nav_electronics_1",
+        "id": "172623"
+      },
+      {
+        "name": "Security & Surveillance",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics-Security-Surveillance-Equipment/zgbs/electronics/524136/ref=zg_bs_nav_electronics_1",
+        "id": "524136"
+      },
+      {
+        "name": "Service & Replacement Plans",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics-Computers-Electronics-Service-Plans/zgbs/electronics/16285901/ref=zg_bs_nav_electronics_1",
+        "id": "16285901"
+      },
+      {
+        "name": "Televisions & Video",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics-Televisions-Video-Products/zgbs/electronics/1266092011/ref=zg_bs_nav_electronics_1",
+        "id": "1266092011"
+      },
+      {
+        "name": "Video Game Consoles & Accessories",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics-Video-Game-Consoles-Accessories/zgbs/electronics/7926841011/ref=zg_bs_nav_electronics_1",
+        "id": "7926841011"
+      },
+      {
+        "name": "Video Projectors",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics-Video-Projectors/zgbs/electronics/300334/ref=zg_bs_nav_electronics_1",
+        "id": "300334"
+      },
+      {
+        "name": "Wearable Technology",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics-Wearable-Technology/zgbs/electronics/10048700011/ref=zg_bs_nav_electronics_1",
+        "id": "10048700011"
+      },
+      {
+        "name": "eBook Readers & Accessories",
+        "link": "https://www.amazon.com/Best-Sellers-Electronics-eBook-Readers-Accessories/zgbs/electronics/2642125011/ref=zg_bs_nav_electronics_1",
+        "id": "2642125011"
+      }
+    ]
+  }
+}
