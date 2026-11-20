@@ -1,0 +1,6 @@
+# Recommended Header
+# captured_at,category_id,category,rank,asin,title,price,price_raw,rating,ratings_total,image_url
+
+# Example
+# 2026-11-20T19:05:57Z,appliances,Appliances,1,B0882ZJ48W,"GE XWFE™ Refrigerator Water Filter, Genuine Filter...",49.99,$49.99,4.5,43634,https://images-na...jpg
+# 2026-11-20T19:05:57Z,appliances,Appliances,2,B00UXG4WR8,"everydrop by Whirlpool Ice & Water Refrigerator Filter 1...",53.99,$53.99,4.7,109558,https://images-na...jpg
