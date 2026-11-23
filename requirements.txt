@@ -5,3 +5,5 @@ scipy
 seaborn
 matplotlib
 python-dotenv
+customtkinter
+pillow
