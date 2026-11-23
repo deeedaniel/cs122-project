@@ -10,8 +10,6 @@ load_dotenv()
 CSV_PATH = "data/amazon_products.csv"
 
 # 3 core categories for daily gathering
-# Note: Using Amazon bestsellers URLs because Rainforest API's category_id for
-# Home & Kitchen doesn't match standard slugs, while direct URLs work consistently.
 CATEGORIES = {
     "appliances": {
         "name": "Appliances",
@@ -165,7 +163,10 @@ def load_products_csv(path=CSV_PATH):
 
 
 def save_products_csv(new_df, path=CSV_PATH):
-    """Append new products to CSV and deduplicate on (capture_date, category_id, asin)."""
+    """
+    Append newly fetched products to the CSV without overwriting previous history.
+    This preserves price history and rank changes across multiple fetches.
+    """
     os.makedirs(os.path.dirname(path), exist_ok=True)
 
     if new_df.empty:
@@ -177,11 +178,9 @@ def save_products_csv(new_df, path=CSV_PATH):
     else:
         combined = pd.concat([existing_df, new_df], ignore_index=True)
 
-    # Extract YYYY-MM-DD from captured_at for same-day deduplication
-    combined["_date"] = combined["captured_at"].astype(str).str.slice(0, 10)
-    # Keep the latest fetch on the same day for each product in that category
-    combined = combined.drop_duplicates(subset=["_date", "category_id", "asin"], keep="last")
-    combined = combined.drop(columns=["_date"])
+    # Only drop exact duplicates (same timestamp, category, and asin)
+    # This ensures EVERY fetch session is saved so price and rank history accumulates!
+    combined = combined.drop_duplicates(subset=["captured_at", "category_id", "asin"], keep="last")
     combined = combined.reset_index(drop=True)
 
     combined.to_csv(path, index=False)
@@ -200,15 +199,46 @@ def fetch_all_daily_categories():
     if dfs:
         all_df = pd.concat(dfs, ignore_index=True)
         saved_df = save_products_csv(all_df)
-        print(f"Saved total of {len(saved_df)} records to {CSV_PATH}")
+        print(f"Appended to CSV! Total rows in database: {len(saved_df)}")
         return saved_df
 
     return pd.DataFrame(columns=CSV_COLUMNS)
 
 
+# --- Analysis Helper Functions for Teammate ---
+
+def get_latest_bestsellers(category=None, top_n=10, path=CSV_PATH):
+    """
+    Get the latest top N best sellers for a category (or all categories)
+    from the most recent capture.
+    """
+    df = load_products_csv(path)
+    if df.empty:
+        return df
+
+    if category:
+        df = df[df["category"].str.lower() == category.lower()]
+
+    # Sort by capture date descending and rank ascending
+    latest_date = df["captured_at"].max()
+    latest_df = df[df["captured_at"] == latest_date]
+    return latest_df.sort_values(by="rank").head(top_n)
+
+
+def get_price_history(asin, path=CSV_PATH):
+    """
+    Get all historical records (timestamp, rank, price) for a specific product ASIN.
+    """
+    df = load_products_csv(path)
+    if df.empty:
+        return df
+    product_df = df[df["asin"] == asin].sort_values(by="captured_at")
+    return product_df[["captured_at", "category", "rank", "title", "price", "price_raw"]]
+
+
 # Terminal runner for daily collection: python api_client.py
 if __name__ == "__main__":
-    print("Running daily Rainforest API bestsellers collection...")
+    print("Running Rainforest API bestsellers collection...")
     try:
         df = fetch_all_daily_categories()
         print("Done! Products per category in CSV:")

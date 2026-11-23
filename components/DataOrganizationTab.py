@@ -261,6 +261,11 @@ class DataOrganizationTab(ctk.CTkFrame):
             return
 
         data = self.df.copy()
+        # Keep latest snapshot for each product so the display list doesn't show duplicate cards
+        data = data.sort_values(by=["captured_at", "rank"], ascending=[True, True])
+        data = data.drop_duplicates(subset=["category_id", "asin"], keep="last")
+        data = data.sort_values(by="rank")
+
         cat = self.cat_filter.get()
         if cat != "All":
             data = data[data["category"].astype(str) == cat]
