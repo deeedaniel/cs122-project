@@ -2,13 +2,15 @@ import os
 
 import customtkinter as ctk
 from PIL import Image
-
-
+import seaborn as sns
+import pandas as pd
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+from matplotlib.figure import Figure
 class DataAnalysisTab(ctk.CTkFrame):
     """Left sidebar menu + a content area that swaps between three pages."""
 
     PAGES = {
-        "Price and Quantity": "Relationship between price and quantity",
+        "Unique Products": "Do number of unique products in each category", 
         "Price over two weeks": "Fetch the data from the API here.",
         "Profitable Categories": "Show products with images and details here.",
     }
@@ -53,10 +55,15 @@ class DataAnalysisTab(ctk.CTkFrame):
 
             self.pages[name] = self._build_page(name, description)
 
-        self.show_page("Price and Quantity")  # page shown on startup
+        self.show_page("Unique Products")  # page shown on startup
 
     def _build_page(self, title, description):
         """Create one page frame. Put each page's real widgets in here."""
+        
+        # page 1
+        if title == "Unique Products": 
+            return self._build_unique_products(title, description)
+        
         page = ctk.CTkFrame(self.content)
         ctk.CTkLabel(
             page, text=title, font=ctk.CTkFont(size=20, weight="bold")
@@ -71,3 +78,49 @@ class DataAnalysisTab(ctk.CTkFrame):
 
         self.pages[name].grid(row=0, column=0, sticky="nsew")  # show the chosen one
         self.buttons[name].configure(fg_color=("gray75", "gray25"))  # highlight it
+        
+    def _build_unique_products(self, title, description):
+        page = ctk.CTkFrame(self.content)
+        page.grid_rowconfigure(2, weight=1)
+        page.grid_columnconfigure(0, weight=1)
+        df = pd.read_csv("./data/amazon_products.csv")
+        print(df.nunique().to_string())
+        
+        ctk.CTkLabel(
+            page, text=title, font=ctk.CTkFont(size=20, weight="bold")
+        ).grid(row=0, column=0, sticky="w", padx=20, pady=(15, 2))
+
+        ctk.CTkLabel(page, text=description).grid(
+            row=1, column=0, sticky="w", padx=20
+        )
+        
+        # count of products in each categories
+        counts = (
+            df.groupby("category")["asin"]
+                .nunique()
+                .sort_values(ascending=False)
+        )
+                
+        print(counts)
+        fig = Figure(figsize=(6, 4), dpi=100)
+        ax = fig.add_subplot(111)
+        sns.barplot(x=counts.values, y=counts.index, color="orange", ax=ax)
+        ax.set_xlabel("Unique products")
+        ax.set_ylabel("Category")
+        fig.tight_layout()
+
+        canvas = FigureCanvasTkAgg(fig, master=page)
+        canvas.draw()
+        canvas.get_tk_widget().grid(
+            row=2, column=0, sticky="nsew", padx=20, pady=10
+        )
+        
+        # Distribution of prices over each category
+        for value in df["category"].unique():
+            category_df = df[df["category"] == value]
+            print(f"Category: {value}, Count: {len(category_df)}")
+            print(category_df["price"].describe())
+        
+        price_df = pd.read_csv("./data/keepa_history.csv")
+        print(price_df.head())
+        return page

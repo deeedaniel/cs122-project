@@ -37,4 +37,5 @@ if __name__ == "__main__":
     DataOrganizationTab(data_organization_tab).pack(expand=True, fill="both")
     DataAnalysisTab(data_analysis_tab).pack(expand=True, fill="both")
     # Start the GUI event loop
+
     app.mainloop()

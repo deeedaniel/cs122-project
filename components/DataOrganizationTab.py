@@ -3,6 +3,7 @@ import threading
 from tkinter import filedialog
 import customtkinter as ctk
 import pandas as pd
+
 from api_client import (
     CATEGORIES,
     CSV_PATH,
