@@ -6,13 +6,14 @@ import seaborn as sns
 import pandas as pd
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.figure import Figure
+import matplotlib.dates as mdates
 class DataAnalysisTab(ctk.CTkFrame):
     """Left sidebar menu + a content area that swaps between three pages."""
 
     PAGES = {
         "Unique Products": "Do number of unique products in each category", 
-        "Price Distribution over Categories": "Fetch the data from the API here.",
-        "Profitable Categories": "Show products with images and details here.",
+        "Price Distribution over Categories": "Show the distribution of product prices over each category.",
+        "Price History": "Show products with price changes over time and the offers available for each product.",
     }
 
     def __init__(self, master):
@@ -65,6 +66,8 @@ class DataAnalysisTab(ctk.CTkFrame):
             return self._build_unique_products(title, description)
         elif title == "Price Distribution over Categories":
             return self._build_price_distribution(title, description)
+        elif title == "Price History":
+            return self._build_price_history(title, description)
         
         page = ctk.CTkFrame(self.content)
         ctk.CTkLabel(
@@ -186,4 +189,99 @@ class DataAnalysisTab(ctk.CTkFrame):
             row=3, column=0, sticky="nsew", padx=20, pady=10
         )
         
+        return page
+        
+    
+    def _build_price_history(self, title, description):
+        page = ctk.CTkFrame(self.content)
+        page.grid_rowconfigure(2, weight=1)
+        page.grid_columnconfigure(0, weight=1)
+        df = pd.read_csv("./data/keepa_history.csv")
+        print(df.head())
+        
+        ctk.CTkLabel(
+            page, text=title, font=ctk.CTkFont(size=20, weight="bold")
+        ).grid(row=0, column=0, sticky="w", padx=20, pady=(15, 2))
+
+        ctk.CTkLabel(page, text=description).grid(
+            row=1, column=0, sticky="w", padx=20
+        )
+        
+        # display analysis of price history for a product
+        df = df[df["asin"] == "B0076OW80S"]  # example ASIN
+        print(df.head())
+        
+        df["date"] = pd.to_datetime(df["date"], utc=True, errors="coerce")
+        df["price"] = pd.to_numeric(df["price"], errors="coerce")
+        df = df[df["series"].isin(["amazonPriceHistory", "buyBoxPriceHistory", "newPriceHistory"])]
+        print(df)
+        
+        #plot price history for the product
+        price_fig = Figure(figsize=(7, 4), dpi=100)
+        price_ax = price_fig.add_subplot(111)
+        sns.lineplot(
+            data=df,
+            x="date",
+            y="price",
+            hue="series",
+            drawstyle="steps-post",
+            ax=price_ax,
+        )
+        
+        price_ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
+        price_ax.set_xlabel("Date")
+        price_ax.set_ylabel("Price ($)")
+        price_ax.set_title("Price history for product ASIN: B0076OW80S")
+        price_ax.legend(title="   ")
+        price_fig.autofmt_xdate()
+        price_fig.tight_layout()   
+        
+        tooltip = price_ax.annotate(
+            "", xy=(0, 0), xytext=(20, 20), textcoords="offset points",
+            bbox=dict(boxstyle="round", fc="white", alpha=0.9),
+            arrowprops=dict(arrowstyle="->")
+        )
+        
+        def on_move(event):
+            if event.inaxes != price_ax:
+                hide()
+                return
+
+            hover_date = mdates.num2date(event.xdata)
+            closest = None   # (pixel distance, series name, price)
+
+            for name, group in df.groupby("series"):
+                earlier = group[group["date"] <= hover_date]
+                if earlier.empty:
+                    continue
+                price = earlier["price"].iloc[-1]
+                if pd.isna(price):
+                    continue
+
+                # where that price is drawn on screen, in pixels
+                _, line_y = price_ax.transData.transform((event.xdata, price))
+                distance = abs(line_y - event.y)
+
+                if distance < 8 and (closest is None or distance < closest[0]):
+                    closest = (distance, name, price)
+
+            if closest is None:
+                hide()
+                return
+
+            _, name, price = closest
+            tooltip.xy = (event.xdata, price)          # pin it to the line, not the mouse
+            tooltip.set_text(f"{name}\n{hover_date:%b %d, %Y}\n${price:.2f}")
+            tooltip.set_visible(True)
+            canvas.draw_idle()
+        
+        def hide():
+            if tooltip.get_visible():
+                tooltip.set_visible(False)
+                canvas.draw_idle()
+        
+        canvas = FigureCanvasTkAgg(price_fig, master=page)
+        canvas.draw()
+        canvas.get_tk_widget().grid(row=2, column=0, sticky="nsew", padx=20, pady=10)
+        canvas.mpl_connect("motion_notify_event", on_move)
         return page
